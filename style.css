@@ -187,6 +187,9 @@ nav {
   width: 48px;
   height: 48px;
 }
+.link__icon:hover {
+  transform: scale(1.2);
+}
 .about-me__links {
   animation: fade-up 650ms 600ms backwards;
 }
