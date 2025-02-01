@@ -183,7 +183,10 @@ nav {
   color: black;
   padding: 0 16px;
 }
-
+.link__icon {
+  width: 48px;
+  height: 48px;
+}
 .about-me__links {
   animation: fade-up 650ms 600ms backwards;
 }
@@ -276,7 +279,7 @@ nav {
 }
 
 /* Projects */
-.youtube-container{
+.youtube-container {
   margin-bottom: 50px;
 }
 .project {
