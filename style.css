@@ -25,6 +25,9 @@ span {
 h1 {
   font-size: 36px;
 }
+h3 {
+  color: #0fc7ff;
+}
 p {
   line-height: 1.5;
   font-size: 16px;
@@ -107,7 +110,7 @@ nav {
 }
 .nav__link--anchor {
   margin: 0 12px;
-  color:#0fc7ff;
+  color: #0fc7ff;
   font-weight: 700;
 }
 .nav__link--anchor-primary {
@@ -122,7 +125,7 @@ nav {
 }
 .personal__logo {
   font-size: 24px;
-  color:#0fc7ff;
+  color: #0fc7ff;
   margin: 0 12px;
   font: bold;
 }
@@ -360,7 +363,6 @@ nav {
 .project__description--para,
 .project__description--link {
   text-align: left;
-  color: white;
 }
 
 /* Footer */
