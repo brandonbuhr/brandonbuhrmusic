@@ -26,9 +26,8 @@ h1 {
   font-size: 36px;
 }
 h3 {
-  color: #2de567;
-  margin-top: 40px;
-  font-size: 40px;
+  color: #0fc7ff;
+  font-size: 24px;
 }
 p {
   line-height: 1.5;
@@ -288,20 +287,6 @@ nav {
   opacity: 1;
 }
 
-/* LATEST RELEASE */
-.latest-release {
-  width: 380px;
-  height: 380px;
-  object-fit: cover;
-}
-.latest-release-button {
-  border: none;
-}
-.latest-release-button:hover {
-  cursor: pointer;
-  scale: 1.1;
-  transition: ease all 100ms;
-}
 /* Projects */
 .youtube-container {
   margin-bottom: 50px;
