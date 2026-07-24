@@ -26,7 +26,9 @@ h1 {
   font-size: 36px;
 }
 h3 {
-  color: #0fc7ff;
+  color: #2de567;
+  margin-top: 40px;
+  font-size: 40px;
 }
 p {
   line-height: 1.5;
@@ -90,7 +92,7 @@ li {
 }
 
 .section__title {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /* NAVIGATION BAR */
@@ -286,6 +288,20 @@ nav {
   opacity: 1;
 }
 
+/* LATEST RELEASE */
+.latest-release {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+}
+.latest-release-button {
+  border: none;
+}
+.latest-release-button:hover {
+  cursor: pointer;
+  scale: 1.1;
+  transition: ease all 100ms;
+}
 /* Projects */
 .youtube-container {
   margin-bottom: 50px;
@@ -343,7 +359,9 @@ nav {
   max-width: 550px;
   z-index: 3;
   opacity: 0;
-  transition: transform 450ms, opacity 300ms;
+  transition:
+    transform 450ms,
+    opacity 300ms;
 }
 
 .project__description--title {
